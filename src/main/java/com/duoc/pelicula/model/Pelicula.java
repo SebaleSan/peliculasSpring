@@ -1,4 +1,4 @@
-package com.duoc.pelicula;
+package com.duoc.pelicula.model;
 
 public class Pelicula {
 
