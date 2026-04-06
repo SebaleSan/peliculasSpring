@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.semana4.peliculas.dto.PeliculaResponseDTO;
 import com.semana4.peliculas.service.PeliculaService;
 
-import jakarta.persistence.EntityManager;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -39,11 +38,7 @@ public class PeliculaController {
     }
 
 
-    @PostMapping("/crear")
-    public String crearPelicula(@RequestBody String entity) {
-        
-        return entity;
-    }
+
 
     
 
